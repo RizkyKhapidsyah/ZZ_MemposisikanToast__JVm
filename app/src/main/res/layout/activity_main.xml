@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TV_Judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/TV_Judul"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/B_Toast_Simple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="YangTerjadiKetikaTombolDipijit"
+        android:text="@string/B_Toast_Simple"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/B_Toast_Atas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="YangTerjadiKetikaTombolDipijit"
+        android:text="@string/B_Toast_Atas"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/B_Toast_Bawah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="YangTerjadiKetikaTombolDipijit"
+        android:text="@string/B_Toast_Bawah"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/B_Toast_Tengah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="YangTerjadiKetikaTombolDipijit"
+        android:text="@string/B_Toast_Tengah"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/B_Toast_Kiri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="YangTerjadiKetikaTombolDipijit"
+        android:text="@string/B_Toast_Kiri"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/B_Toast_Kanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="YangTerjadiKetikaTombolDipijit"
+        android:text="@string/B_Toast_Kanan"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/B_Toast_AtasKiri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="YangTerjadiKetikaTombolDipijit"
+        android:text="@string/B_Toast_AtasKiri"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/B_Toast_AtasKanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="YangTerjadiKetikaTombolDipijit"
+        android:text="@string/B_Toast_AtasKanan"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/B_Toast_BawahKiri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="YangTerjadiKetikaTombolDipijit"
+        android:text="@string/B_Toast_BawahKiri"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/B_Toast_BawahKanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="YangTerjadiKetikaTombolDipijit"
+        android:text="@string/B_Toast_BawahKanan"
+        android:textAllCaps="true" />
+
+</LinearLayout>

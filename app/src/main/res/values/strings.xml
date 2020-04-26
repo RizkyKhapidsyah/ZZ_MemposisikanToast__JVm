@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ZZ_MemposisikanToast__JVm</string>
+    <string name="B_Toast_Simple">Posisi Toast: Simple</string>
+    <string name="B_Toast_Atas">Posisi Toast: Atas</string>
+    <string name="B_Toast_Bawah">Posisi Toast: Bawah</string>
+    <string name="B_Toast_Tengah">Posisi Toast: Tengah</string>
+    <string name="B_Toast_Kiri">Posisi Toast: Kiri</string>
+    <string name="B_Toast_Kanan">Posisi Toast: Kanan</string>
+    <string name="B_Toast_AtasKiri">Posisi Toast: Atas Kiri</string>
+    <string name="B_Toast_BawahKiri">Posisi Toast: Bawah Kiri</string>
+    <string name="B_Toast_BawahKanan">Posisi Toast: Bawah Kanan</string>
+    <string name="TV_Judul">Klik Untuk Melihat Posisi Pesan Toast :</string>
+    <string name="B_Toast_AtasKanan">Posisi Toast: Atas Kanan</string>
+</resources>
